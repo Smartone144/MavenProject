@@ -25,6 +25,7 @@ public class Suite1 {
 		driver.findElement(By.id("lastname")).sendKeys("muzzammil");
 		driver.findElement(By.id("email_address")).sendKeys("fakhar144@gmail.com");
 		
+		
 		Select cp = new Select(driver.findElement(By.id("company_type")));
 		cp.selectByIndex(3);
 		//cp.selectByValue("developmment");
